@@ -4,8 +4,9 @@
 name: Node.js Package
 
 on:
-  branch:
-    - juji
+  push:
+    branches:
+      - juji
 
 jobs:
 
