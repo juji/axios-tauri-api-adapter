@@ -1,6 +1,6 @@
 {
   "name": "@juji/axios-tauri-api-adapter",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Makes it easy to use Axios in Tauri App",
   "type": "module",
   "keywords": [
