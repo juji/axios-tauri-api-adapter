@@ -24,6 +24,6 @@ jobs:
       - run: pnpm i
       - run: pnpm build-prepare
       - run: pnpm build
-      - run: pnpm publish --access=public
+      - run: pnpm publish --access=public --publish-branch=juji
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
